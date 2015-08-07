@@ -114,16 +114,3 @@ console.log("Valor Total de Consumo:", item.checked);
 }
 
 window.calcularTotal = calcularTotal;
-
-function checaRadio(){
- 
-                radio = document.querySelectorAll(".consumidor");
- 
-                for(i=0; i<radio.length; i++)
-                {
-                        if (radio[i].getAttribute("type") == "radio" && radio[i].checked == true)
-                        {
-                                alert(radio[i].value);
-                        }
-                }
-        }
