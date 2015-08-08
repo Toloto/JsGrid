@@ -36,8 +36,8 @@
 
 					trBody.innerHTML += "\
 					<td>\
-						<input type='radio' class='consumidor' value='"+item[prop]+"' name='"+prop+"' onChange="calcularTotal()">Ligar</input>\
-			    		<input type='radio' value='0' name='"+prop+"' checked>Desligar</input>\
+						<input type='radio' class='consumidor' value='"+item[prop]+"' name='"+prop+"' onchange="calcularTotal()">Ligar</input>\
+			    			<input type='radio' value='0' name='"+prop+"' checked>Desligar</input>\
 			    	</td>";	
 
 			    	trHead.innerHTML += "\
