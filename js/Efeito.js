@@ -16,7 +16,7 @@ $(document).ready(function(){
     });
 });
 });
-
+/*
  $(document).ready(function() {
                 $('#galeria').click(function(evt) {
                   evt.stopPropagation();
@@ -27,3 +27,4 @@ $(document).ready(function(){
                   $(this).zoomTo({duration:1000, targetsize:0.6});
                 });
             });
+*/
